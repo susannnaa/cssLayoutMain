@@ -1,0 +1,148 @@
+*{
+	box-sizing: border-box;
+	font-family: 'Inconsolata', monospace;
+	color: rgba(148,187,233,1);
+	font-size: 18px;
+}
+
+body{
+	background: linear-gradient(90deg, rgba(0,145,214,.8) 0%, rgba(0,229,173,.8) 80%);
+}
+
+fieldset{
+	border: none;
+	border-top: 0.5px solid rgba(1, 230, 173, .8);;
+}
+
+form {
+	margin: 2% 34% 0;
+	padding: 25px 80px;
+	background-color: white;
+	box-shadow: 1px 0px 3px 3px rgba(0,229,173,1);
+}
+
+.user_info_block {
+	margin: 15px 0;
+}
+.user_info_block input{
+	display: block;
+	position: relative;
+	width: 100%;
+	outline: none;
+	border: none;
+	padding: 5px;
+	border-bottom: 1px solid rgba(148,187,233,1);
+	transition: border-color 0.25s;
+}
+
+.user_info_block input:valid ~label,
+.user_info_block input:focus ~label
+{
+	 color: rgb(1,230,173);
+}
+
+.user_info_block input:valid,
+.user_info_block input:focus {
+	border-color: rgb(1,230,173);
+}
+
+.user_info_block label, .select_status label{
+	display: block;
+	font-size: 20px;
+	color: grey;
+}
+
+
+.select_status label{
+	margin: 25px 0 15px;
+}
+.select_status select {
+	padding: 5px;
+	width: 50%;
+	outline: 0;
+	border: 2px solid rgba(148,187,233,.5);
+	box-shadow: 1px 0px 2px 2px rgba(1,230,173,.5);
+	border-radius: 10px;
+}
+
+
+option{
+	padding: 2px;
+	border-color: rgb(1,230,173);
+}
+
+.radio_block{
+	margin: 25px 0;
+}
+
+.radio_block p{
+	color: grey;
+}
+
+.radio_block label{
+	color: rgba(148,187,233,1);
+}
+
+
+.radio_block input{
+	position: relative;
+    top: 5px;
+    left: 0;
+    height: 18px;
+    width: 18px;
+}
+
+.radio_block input:focus {
+  background-color: rgba(148,187,233,1);
+}
+
+.comments_block{
+	margin: 25px 0;
+}
+
+label{
+	color: grey;
+}
+
+.comments_block textarea{
+	display: block; 
+	width: 75%;
+	height: 45px;
+	color: rgba(148,187,233,1);
+	font-size: 15px;
+	margin-top: 15px;
+}
+
+
+.date_block input{
+	display: block;
+	margin: 10px 0;
+	padding: 5px 10px;
+}
+
+.checkbox_block input{
+	position: relative;
+    top: 5px;
+    left: 0;
+    height: 18px;
+    width: 18px;
+}
+
+button{
+	text-align: center;
+	font-size: 20px;
+	padding: 5px 15px;	
+	border: 1px solid rgba(148,187,233,1);
+	box-shadow: 1px 0px 6px 3px rgba(148,187,233,1);
+}
+
+.end{
+	display: flex;
+	justify-content: center;
+	margin: 25px auto 0;
+}
+
+
+
+
+
